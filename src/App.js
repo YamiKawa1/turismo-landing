@@ -3,16 +3,35 @@ import Explanation from "./components/Explanation";
 import Layout from "./components/Layout";
 import Presentation from "./components/Presentation";
 import StickyFooter from "./components/StickyFooter";
+import {ThemeProvider, createMuiTheme} from "@material-ui/core"
 
 function App() {
+  const theme = createMuiTheme({
+    breakpoints:{
+      values:{
+        xxs:320,
+        xs:480,
+        sm: 640,
+        md:768,
+        lg:1024,
+        xl:1220,
+        xxl:1366,
+        xxxl:1620
+      }
+    }
+  })
+
+
   return (
     <div>
+      <ThemeProvider theme={theme}>
       <Layout>
         <Banner />
         <Explanation />
         <Presentation />
         <StickyFooter/>
       </Layout>
+      </ThemeProvider>
     </div>
   );
 }

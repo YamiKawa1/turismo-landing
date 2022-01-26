@@ -4,7 +4,6 @@ import { makeStyles } from "@material-ui/core"
 
 export default function StickyFooter() {
     const classes = useStyles()
-
     return (
         <div>
             Footer
