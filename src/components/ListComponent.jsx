@@ -6,12 +6,7 @@ import data from '../listData';
 export default function ListComponent() {
 const classes = useStyles()
   return (
-      <List component="nav" aria-labelledby='nested-list-subheader'
-      subheader={
-          <ListSubheader component='div' id='nested-list-subheader'>
-              Cost based on a group of 30px, acommodated in twin rooms
-          </ListSubheader>
-      } className={classes.listRoot}>
+      <List component="nav" aria-labelledby='nested-list-subheader' className={classes.listRoot}>
           {console.log(data)}
         {
         data.map(item => (
