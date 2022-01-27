@@ -16,6 +16,12 @@ export default function Explanation() {
             <Typography variant="subtitle1" paragraph gutterBottom style={{margin: "1rem 1.5rem"}}>
                 <strong>Lorem ipsum</strong> dolor sit amet consectetur adipisicing elit. Laboriosam nisi nulla beatae ex culpa nemo, deserunt repudiandae quia iusto quo fuga sunt officia iure eaque officiis nostrum, tempora molestiae earum?
             </Typography>
+            <Typography variant="subtitle1" paragraph gutterBottom style={{margin: "1rem 1.5rem"}}>
+                <strong>Lorem ipsum</strong> dolor sit amet consectetur adipisicing elit. Laboriosam nisi nulla beatae ex culpa nemo, deserunt repudiandae quia iusto quo fuga sunt officia iure eaque officiis nostrum, tempora molestiae earum?
+            </Typography>
+            <Typography variant="subtitle1" paragraph gutterBottom style={{margin: "1rem 1.5rem"}}>
+                <strong>Lorem ipsum</strong> dolor sit amet consectetur adipisicing elit. Laboriosam nisi nulla beatae ex culpa nemo, deserunt repudiandae quia iusto quo fuga sunt officia iure eaque officiis nostrum, tempora molestiae earum?
+            </Typography>
             <Typography variant="subtitle1" paragraph gutterBottom>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nisi nulla beatae ex culpa nemo, deserunt repudiandae quia iusto quo fuga sunt officia iure eaque officiis nostrum, tempora molestiae earum?
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nisi nulla beatae ex culpa nemo, deserunt repudiandae quia iusto quo fuga sunt officia iure eaque officiis nostrum, tempora molestiae earum?

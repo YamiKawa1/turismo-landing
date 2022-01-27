@@ -6,6 +6,7 @@ import StickyFooter from "./components/StickyFooter";
 import {ThemeProvider, createMuiTheme} from "@material-ui/core"
 
 function App() {
+  // Ya no es soportada, hay que buscar la manera de hacerlo en la v5 de material ui
   const theme = createMuiTheme({
     breakpoints:{
       values:{

@@ -16,7 +16,7 @@ const useStyles = makeStyles((theme) => ({
         flexDirection: "column",
         justifyContent: "space-between",
         minHeight: "100vh",
-        margin: theme.spacing(2)
+        margin: theme.spacing(1)
     }
     
 }))
