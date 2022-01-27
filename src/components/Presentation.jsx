@@ -13,8 +13,9 @@ export default function Presentation() {
 }
 
 const useStyles = makeStyles((theme) => ({
-    root: {
-        
+    presentation: {
+        width: "inherit",
+        height: "auto",
+        padding: theme.spacing(1)
     }
-    
 }))

@@ -1,18 +1,27 @@
 import React from 'react'
-import { makeStyles } from "@material-ui/core"
-
+import { makeStyles, Container, Typography } from "@material-ui/core"
+import  FavoriteIcon from "@material-ui/icons/Favorite"
 
 export default function StickyFooter() {
     const classes = useStyles()
     return (
-        <div>
-            Footer
-        </div>
+        <footer className={classes.footer}>
+            <Container maxWidth="sm">
+                <Typography variant="body1">
+                    Created with <FavoriteIcon style={{color: "red"}}/> By Tal Company 
+                    <span>
+                        <a href="pagina.com" target="_blank" rel='noreferrer'>Yourpage.com</a>
+                    </span>
+                </Typography>
+            </Container>
+        </footer>
     )
 }
 
 const useStyles = makeStyles((theme) => ({
-    root: {
+    footer: {
+        padding: theme.spacing(2),
+        marginTop: "auto"
     }
     
 }))
