@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/turismo-landing/static/css/main.e6c13ad2.css",
+    "main.js": "/turismo-landing/static/js/main.e5c9975f.js",
+    "index.html": "/turismo-landing/index.html",
+    "main.e6c13ad2.css.map": "/turismo-landing/static/css/main.e6c13ad2.css.map",
+    "main.e5c9975f.js.map": "/turismo-landing/static/js/main.e5c9975f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.e5c9975f.js"
+  ]
+}
