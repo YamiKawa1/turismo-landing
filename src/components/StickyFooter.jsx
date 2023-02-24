@@ -6,7 +6,6 @@ export default function StickyFooter() {
     const classes = useStyles()
     return (
 
-        
         <footer className={classes.footer}>
             <Container maxWidth="sm">
                 <Typography variant="body1">
