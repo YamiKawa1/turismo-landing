@@ -5,6 +5,7 @@ import  FavoriteIcon from "@material-ui/icons/Favorite"
 export default function StickyFooter() {
     const classes = useStyles()
     return (
+
         
         <footer className={classes.footer}>
             <Container maxWidth="sm">
